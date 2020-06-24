@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Color Pallete Generator</title>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <div class="container">
+            <h1>Color palette generator</h1>
+
+            <div class="colors">
+                <Pallete 
+                    v-for="(color, index) in colors"
+                    v-bind:color='color'
+                    v-bind:index='index'
+                    v-bind:key="index"
+                    @copy="copyColorHex"
+                />
+            </div>
+
+            <button 
+                class="generate-btn"
+                @click='generateColors'
+            >Generate pallete</button>
+
+            <div class="info">
+                <p>Click to copy individual color</p>
+            </div>
+
+            <div class="message" v-bind:class="{show: showMessage}">
+                <p>Color <span>{{copiedColor}}</span> copied to your clipboard</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
