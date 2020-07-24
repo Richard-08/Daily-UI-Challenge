@@ -1,0 +1,58 @@
+/* Vars:
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+// Font
+$mainFont: "Poppins", sans-serif;
+$secondaryFont: "Roboto", sans-serif;
+
+/* Colors */
+
+$main-bg: #F6F7FB;
+$head-title: #282538;
+$controls-bg: #1E86FF;
+$small-text-color: #B9BDCF;
+
+
+// Size
+$mainFontColor: #334680;
+$mainFontSize: 16px;
+$mainFontWeight: 400;
+$mainLineHeight: 1.4;
+
+$desktopWidth: 1280px;
+$smDesktopWidth: 1024px;
+$tableWidth: 768px;
+$smTableWidth: 640px;
+$phoneWidth: 480px;
+$smPhoneWidth: 320px;
+
+/*
+ All colors taken from:
+ https://github.com/vedees/uimini
+*/
+
+// Main color
+$default-color: #ffffff;
+$primary-color: #444ce0;
+$success-color: #26de81;
+$danger-color: #fc5c65;
+$warning-color: #fed330;
+$light-color: #999999;
+$purple-color: #8854d0;
+
+// Neutral Color
+$neutral-primary: #303133;
+$neutral-regular: #606266;
+$neutral-secondary: #909399;
+$neutral-placeholder: #c0c4cc;
+
+// Border Color
+$border-base: #dcdfe6;
+$border-light: #e4e7ed;
+$border-lighter: #ebeef5;
+$border-lightex: #f2f6fc;
